@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from datetime import date
 
 def firma_santiago(func):
-    """Decorador para registrar acciones bajo el sello de Santiago"""
+    """Sello de Santiago"""
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         print(f"\n[SISTEMA SANTIAGO] Ejecutando: {func.__name__.upper()}...")
