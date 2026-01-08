@@ -108,11 +108,11 @@ if __name__ == "__main__":
     mi_moto.asignar_conductor(santiago_dev)
     mi_moto.iniciar_jornada()
 
-    print("\n--- PROCESANDO CAMIÓN ---")
-    mi_camion.asignar_conductor(santiago_dev)
-    mi_camion.iniciar_jornada()
-
     print("\n--- PROCESANDO CARRO ---")
     mi_carro.asignar_conductor(santiago_dev)
     mi_carro.iniciar_jornada()
+    
+    print("\n--- PROCESANDO CAMIÓN ---")
+    mi_camion.asignar_conductor(santiago_dev)
+    mi_camion.iniciar_jornada()
     
