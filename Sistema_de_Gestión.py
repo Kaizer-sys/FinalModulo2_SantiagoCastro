@@ -100,7 +100,7 @@ if __name__ == "__main__":
     # 1. Instanciando Datos
     santiago_dev = Conductor("Santiago", "ID-999", "A2-B1")
     mi_moto = Moto("STG-001", 2024, "MOT-X", 500, tiene_casco=True)
-    mi_camion = Camion("STG-999", 2022, "TRUCK-Z", 5000, planilla_ok=False)
+    mi_camion = Camion("STG-999", 2022, "TRUCK-Z", 5000, planilla_ok=True)
 
     # 2. Operación
     mi_moto.asignar_conductor(santiago_dev)
