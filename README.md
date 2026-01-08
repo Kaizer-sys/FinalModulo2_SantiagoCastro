@@ -15,6 +15,7 @@ Este código es una implementación de planificación y desarrollo diseñad por 
 >### "Escribe código, cambia el mundo"
 > — *Santiago Castro*
 
+# DESCRIPCIÓN
 **Este proyecto es una solución integral para la digitalización de la flota de vehículos y conductores de la empresa Transporte Seguro S.A. Implementa un modelo robusto de Programación Orientada a Objetos (POO) en Python, garantizando la seguridad operativa mediante reglas de negocio automatizadas.**
 
 # Conceptos Aplicados:
@@ -28,12 +29,13 @@ Este código es una implementación de planificación y desarrollo diseñad por 
 
 - Agregación: Relación dinámica con el Conductor.
 
-*REGLAS DE SEGURIDAD*
-_______________________________________________________________
-Vehículo | Protocolo de validación                             |
-         |                                                     |
-MOTO     | Verificación de Casco de Seguridad obligatorio.     |
-CARRO    | Análisis de vigencia de Revisión Técnico-Mecánica.  |
-CAMIÓN   | Auditoría de Planilla de Carga y estado legal       |
-_________|_____________________________________________________|
 
+# REGLAS DE SEGURIDAD Y SEGURIDAD
+
+| Vehículo | Protocolo de Validación | Requisito Crítico |
+| :---: | :--- | :--- | :--- |
+| **MOTO** | Verificación de Casco de Seguridad | **Obligatorio** para iniciar jornada. |
+| **CARRO** | Análisis de Revisión Técnico-Mecánica | **Vigencia** comprobada vs Fecha Actual. |
+| **CAMIÓN** | Auditoría de Planilla de Carga | **Estado Legal** y documentación activa. |
+
+---
