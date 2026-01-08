@@ -4,6 +4,8 @@
 
 ## AUTORÍA Y SELLO PERSONAL
 Este código es una implementación de planificación y desarrollo diseñad por **Santiago Castro**. Incluye un **Decorador de Autoría** único (`@firma_santiago`) que audita cada proceso crítico del sistema en tiempo real.
+
+```text
     _____             _   _                 
    / ____|           | | (_)                
   | (___   __ _ _ __ | |_ _  __ _  __ _  ___  
@@ -11,6 +13,7 @@ Este código es una implementación de planificación y desarrollo diseñad por 
    ____) | (_| | | | | |_| | (_| | (_| | (_) |
   |_____/ \__,_|_| |_|\__|_|\__,_|\__, |\___/ 
                                    |___/
+```
 
 >### "Escribe código, cambia el mundo"
 > — *Santiago Castro*
@@ -30,12 +33,12 @@ Este código es una implementación de planificación y desarrollo diseñad por 
 - Agregación: Relación dinámica con el Conductor.
 
 
-# REGLAS DE SEGURIDAD Y SEGURIDAD
-
+## REGLAS DE SEGURIDAD Y SEGURIDAD
+```text
 | Vehículo | Protocolo de Validación | Requisito Crítico |
 | :---: | :--- | :--- | :--- |
 | **MOTO** | Verificación de Casco de Seguridad | **Obligatorio** para iniciar jornada. |
 | **CARRO** | Análisis de Revisión Técnico-Mecánica | **Vigencia** comprobada vs Fecha Actual. |
 | **CAMIÓN** | Auditoría de Planilla de Carga | **Estado Legal** y documentación activa. |
-
+```
 ---
